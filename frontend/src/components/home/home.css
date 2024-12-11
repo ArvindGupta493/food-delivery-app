@@ -483,11 +483,11 @@
   border-radius: 25px;
   transition: background-color 0.3s, color 0.3s;
 }
-
 .faq-cards ul li a:hover {
   background-color: #ff8c00;
   color: #fff;
 }
+
 
 /* FAQ Questions Section */
 .FAQS {
@@ -527,10 +527,10 @@
 
 }
 
-.faqs-cards ul li a:hover {
-/*   background-color: #ff8c00; */
+/* .faqs-cards ul li a:hover {
+  background-color: #ff8c00;
   color: #fff;
-}
+} */
 
 /* FAQ Image-Based Cards Section */
 .faqs-cards-img {
