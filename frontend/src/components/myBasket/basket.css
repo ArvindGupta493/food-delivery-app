@@ -970,6 +970,33 @@
     .contact {
     background-color: #fbfbfb;
     }
+
+
+    .deliverys {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .contact h4{
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 46px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    .contact p{
+      color: #000;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 46px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
     
     .operational {
     background-color: #131b31;
