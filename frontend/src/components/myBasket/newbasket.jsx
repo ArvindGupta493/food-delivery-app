@@ -467,10 +467,10 @@ const Baskets = () => {
           </div>
         </div>
 
-        <section class="container">
+      <section class="container">
           {/* <!-- <div class="container"> --> */}
           <div class="section delivery">
-            <div class="delivery">
+            <div class="deliverys">
               <a href="#track">
                 <img src="/images/Tracking.png" alt="tracker" />
               </a>
@@ -489,16 +489,16 @@ const Baskets = () => {
           </div>
 
           <div class="section contact">
-            <div class="delivery">
+            <div class="deliverys">
               <a href="#contact">  <img src="/images/contact.png" alt="tracker" /> </a>
               <h9> Contact information</h9>
             </div>
             {/* <!-- <h2>📋 Contact information</h2> --> */}
-            <p>
+            <h4>
               If you have allergies or other dietary restrictions, please contact
               the restaurant. The restaurant will provide food-specific
               information upon request.
-            </p>
+            </h4>
           
             <p>  <strong>Phone number:</strong> +934443-43  </p>
             <p>
@@ -508,7 +508,7 @@ const Baskets = () => {
           </div>
 
           <div class="section operational">
-            <div class="delivery">
+            <div class="deliverys">
               <img src="/images/Clock 2.png" alt="tracker" />
               <h10>Operational Times</h10>
             </div>
