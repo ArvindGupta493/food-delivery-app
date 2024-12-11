@@ -423,6 +423,24 @@ const Home = () => {
         </div>
       </section>
 
+      <section class="performace">
+          <div className="area1">
+            <h3>546+</h3>
+            <p>Registered Rider</p>
+          </div>
+          <div className="area">
+            <h3>789,900+</h3>
+            <p>Orders Delivered</p>
+          </div>  
+          <div className="area">
+            <h3>690+</h3>
+            <p>Restraunts Partnered</p>
+          </div>  
+          <div className="area">
+            <h3>17,457+</h3>
+            <p>Food items</p>
+          </div>  
+      </section>
       <Footer />
     </div>
   );
