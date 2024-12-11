@@ -1,0 +1,594 @@
+/* MainPage.css */
+/* Main Banner Section */
+/* Main Banner Section */
+/* .home-main{
+  width: 1528px;
+  margin: auto;
+} */
+.banner {
+  background-color: #eeeaea;
+  padding: 50px;
+  position: relative;
+  color: #000;
+  text-align: start;
+  /* margin: 100px; */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner-content h1 {
+  font-size: 3em;
+  margin: 0;
+  color: #03081F;
+}
+
+.banner-content h2 {
+  font-size: 3em;
+  color: #FC8A06;
+  margin: 10px 0;
+}
+
+.banner-content p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #03081F;
+  font-weight: 400;
+}
+
+.search-bar {
+  margin-top: 20px;
+  display: flex;
+  width: 50%;
+  /* gap: 10px; */
+}
+
+.search-bar input {
+  /* padding: 10px; */
+  /* font-size: 1em; */
+  /* width: 350px; */
+  border: none;
+  /* border-radius: 45px; */
+
+}
+
+.search-Button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  border-radius: 45px;
+  cursor: pointer;
+  margin-right: 0px !important;
+  /* margin-left: -30px; */
+}
+
+/* Images */
+.home-page {
+  position: absolute;
+  bottom: 0%;
+  left: 35%;
+  z-index: 2;
+}
+
+.home-page img {
+  max-width: 70%;
+  /* top: 13px; */
+  /* margin-top: 134px; */
+}
+
+.home-page-side-image {
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  z-index: 1;
+}
+
+.home-page-side-image img {
+  max-width: 70%;
+}
+
+.home-page-background {
+  position: absolute;
+  bottom: 0;
+  left: 72%;
+  z-index: 0;
+
+}
+
+.home-page-background img {
+  /* max-width: 100%; */
+  opacity: 0.8;
+}
+
+/* Orders Section */
+.order1,
+.order2,
+.order3 {
+  position: absolute;
+  z-index: 3;
+  /* background-color: #fff;*/
+  padding: 10px;
+  border-radius: 10px;
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.order1 {
+  top: 5%;
+  right: 15%;
+}
+
+.order2 {
+  top: 30%;
+  right: 5%;
+}
+
+.order3 {
+  top: 55%;
+  right: 10%;
+}
+
+.order1 img,
+.order2 img,
+.order3 img {
+  max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Exclusive Deals Section */
+.exclusive-deals {
+  margin-top: 40px;
+  /* padding: 20px; */
+  /* background-color: #f0f0f0; */
+  width: 1528px;
+  margin: auto;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  /* padding: 10px 20px; */
+}
+
+.bar h8 {
+  font-size: 1.4em;
+  color: #333;
+}
+
+.bar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* .bar-links li {
+  margin-right: 20px;
+} */
+
+.bar-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  padding: 28px;
+  border-radius: 45px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bar-links a:hover {
+  background-color: orange;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* Deals Cards */
+.deals-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  gap: 20px;
+  background-color:#FBFBFB;
+}
+
+.deal-card {
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+  background: #FBFBFB;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.deal-card img {
+  width: 90%;
+  border-radius: 10px 10px 0 0;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .deals-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+
+  .deal-card {
+      width: 90%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Categories Section */
+.categories {
+    /* padding: 40px 20px; */
+    width: 1528px;
+    margin:auto;
+    background-color: #fbfbfb;
+    text-align: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* display: flex; */
+
+}
+.bj{  
+    background-color: #FBFBFB;
+    /* width: 90%; */
+    /* margin-left: 100px; */
+}
+
+.h8 {
+    font-size: 2em;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    display: flex;
+    /* display: inline-block; */
+    /* margin-left: -800px; */
+}
+
+/* Category Cards */
+/* .category-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+} */
+
+.deals-card {
+    width: 205px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deals-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.deals-card h2 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    margin: 10px 0 5px;
+    text-align: start;
+}
+
+.deals-card h2 + p {
+    font-size: 14px;
+    color: #ff8c00; /* Accent color */
+    margin-top: 0;
+    text-align: start;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .category-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .deals-card {
+        width: 90%;
+    }
+
+    .categories h8 {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+/* Restraunt Section */
+/* .restaurants{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #fbfbfb;
+} */
+
+.bc{  
+  background-color: #FBFBFB;
+  /* width: 90%; */
+  margin-top: 56px;
+}
+.restaurants h8 {
+  font-size: 2em;
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  display: flex;
+  /* margin-right: 980px; */
+}
+.restaurants-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px; 
+}
+
+
+
+
+
+  /* Partner Program Section */
+  .partner-program {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adjust spacing between items */
+    padding: 20px;
+    background-color: #fbfbfb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FAQ Section */
+.faq {
+  /* padding: 40px 20px; */
+  background-color: #D9D9D9;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  width: 1590px;
+  margin: auto;
+}
+
+/* .bl{  
+  width: 90%;
+  margin-left: 5%  ;
+} */
+
+.faq-cards{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* width: auto; */
+}
+.faq-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq h6 {
+  font-size: 2.5em;
+  color: black;
+  /* margin-bottom: 20px; */
+  font-weight: bold;
+  /* margin-right: 30%; */
+}
+
+/* FAQ Links Section */
+.faq-cards ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  
+}
+.fql-all{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+.fql-allp p{
+  /* display: flex; */
+  /* text-align: center;
+  align-self: center; */
+  /* align-items: center;
+  justify-content: center; */
+  /* padding: 10px; */
+  text-align: center;
+  padding-top: 20px;
+
+}
+.faq-cards ul li {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.faq-cards ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.faq-cards ul li a:hover {
+  background-color: #ff8c00;
+  color: #fff;
+}
+
+/* FAQ Questions Section */
+.FAQS {
+  margin-top: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  
+}
+.faqs-cards{
+  display: flex;
+  width: 1290px;
+  background-color: #FFFFFF;
+  /* align-self: center; */
+}
+
+.faqs-cards ul {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  gap: 15px;
+  list-style: none;
+  padding: 75px;
+}
+
+.faqs-cards ul li a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 20px 0px; 
+  border-radius: 25px;
+  font-weight: bold;
+
+}
+
+.faqs-cards ul li a:hover {
+  background-color: #ff8c00;
+  color: #fff;
+}
+
+/* FAQ Image-Based Cards Section */
+.faqs-cards-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+  /* margin-top: 30px; */
+  padding: 0px 30px;
+}
+
+.faqs-cards-img-1 {
+  text-align: center;
+  background: #b9b7b7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Fixed card width */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+
+.faqs-cards-img-1 img {
+  width: 100px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.faqs-cards-img-1 h7 {
+  font-size: 1.2em;
+  color: black;
+  font-weight: bold;
+}
+
+.faqs-cards-img-1 p3 {
+  font-size: 1em;
+  color: black;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Final Paragraph */
+.faq p4 {
+  font-size: 1.1em;
+  color: black;
+  margin-top: 40px;
+  line-height: 1.6;
+  display: block;
+  margin-left: 1050px;
+} 
+.banner-text{
+  /* display: flex;
+  flex-direction: column;
+  /* align-self: center; */
+  /* align-items: center; */
+  /* justify-content: center; */ 
+  padding-left:57px ;
+
+}

@@ -1,0 +1,235 @@
+General Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #f9f9f9;
+  }
+  .addresses-page {
+    padding: 20px;
+    min-height: 800px;
+    /* background-color: #f3f3f3; */
+    align-items: center;
+    
+  }
+  
+  .headers {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .headers img {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .addresses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .headers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-right: 1300px;
+
+  }
+  
+  .headers .back-arrow {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .headers h1 {
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+  
+  .addresses-container {
+    /* display: flex; */
+    /* gap: 20px; */
+    /* flex-wrap: wrap;  */
+
+
+    display: flex;
+    gap: 30px; 
+    max-width: 1550px;
+    margin: 30px auto;
+    /* padding: 20px; */
+    border-radius: 15px;
+    margin-top: -10px;
+  }
+  
+  .address-card {
+    background: white;
+    border: 2px solid #dfd8d8;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    
+  }
+  
+  .add-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px dashed rgb(207, 199, 199);
+    cursor: pointer;
+  }
+  
+  .add-address .add-icon {
+    font-size: 36px;
+    color: #f0a500;
+    margin-bottom: 10px;
+  }
+  
+  .add-address p {
+    color: #f0a500;
+    font-weight: bold;
+  }
+  
+  .address-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .address-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .address-footer {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .address-name {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add some space between name and default badge */
+  }
+
+  .default-badge {
+    background-color: #FFEDD8;
+    color: orange;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+  
+  .actions button {
+    background: none;
+    border: none;
+    color: #f0a500;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .actions button:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+
+
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    width: 800px;
+    margin-top: -100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+  }
+  .popup-head {
+    display: flex;
+    align-items: center;  /* Vertically center the items */
+    padding: 10px;
+  }
+  
+  .popup-head img {
+    margin-right: 10px;  
+  }
+  
+  .popup-head h2 {
+    margin: 0; 
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .popup-content input{    
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .popup-content textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .popup-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .popup-actions button {
+    background-color: #f0a500;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup-actions button:hover {
+    opacity: 0.9;
+  }
+  

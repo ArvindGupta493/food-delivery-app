@@ -1,0 +1,221 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    
+  }
+  
+  .top {
+    margin-top: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-left: -1250px;
+    gap: 10px; 
+    padding: 20px;
+  }
+  
+  .top img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .top h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000; 
+    margin: 0;
+  }
+  
+  
+/* .top h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+    display: inline-block;
+    align-items: center;
+  } */
+
+  
+.checkout-container {
+    display: flex;
+    gap: 30px; 
+    max-width: 1550px;
+    margin: 30px auto;
+    /* padding: 20px; */
+    border-radius: 15px;
+    margin-top: -10px;
+  }
+  
+  /* Bill Section */
+  .bill {
+    display: flex;
+    flex: 2;
+    padding-right: 20px;
+
+  }
+  
+
+  
+  .bill img {
+    cursor: pointer;
+    margin-right: 15px;
+    vertical-align:text-bottom;
+  }
+  
+  .cart-items {
+    flex: 2;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 15px;
+    width: 800px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #000000;
+  }
+
+  .cart-item-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .cart-item-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-details p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+  }
+  
+  .notes {
+    margin-top: 20px;
+  }
+  
+  .notes input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Summary Section */
+  .summary-section {
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+    width: 500px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Delivery Address Section */
+  .delivery-address {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    background-color: #fbfbfb;
+  }
+  
+  .delivery-address img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 8px;
+  }
+  
+  .delivery-address div {
+    flex: 1;
+  }
+  
+  .delivery-address span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .delivery-address p {
+    font-size: 12px;
+    color: #555;
+    margin: 5px 0 0;
+  }
+  
+  /* Bill Summary */
+  .bill-summary {
+    margin-top: 20px;
+    border-top: 1px solid #000000;
+    padding-top: 15px;
+  }
+  
+  .bill-summary .checkout-summary {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .bill-summary h3 {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  /* Checkout Button */
+  .checkout-button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px;
+    background-color: #ff8c00;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #ff7700;
+  }
+  
+
+
+
+
+
+
+
+
