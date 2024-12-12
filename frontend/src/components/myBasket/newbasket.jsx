@@ -58,7 +58,7 @@ const Baskets = () => {
   };
 
   const handleCopyLink = () => {
-    navigator.clipboard.writeText("Your link her");
+    navigator.clipboard.writeText("https://food-delivery-app-flame-psi.vercel.app/");
     alert("Link copied to clipboard!");
   };
 
